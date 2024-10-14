@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: large;
+    width: 100$;
+    height: 100%;
+
+}
+
+body{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav .cajas{
+    width: 100%;
+    height: 15vh;
+    background-color: aquamarine;
+    display: flex; 
+    gap: 2%; 
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+nav .cajas .box{
+    background-color: brown;
+    flex: 18%;
+    
+    
+}
+
+header .header{
+    min-height: 35vh;
+    display: flex;
+}
+
+header .header .banner{
+    background-color: gold;
+    flex: 60%;
+}
+
+header .header .tres{
+    background-color: black;
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+}
+ header .header .tres .logo{
+    background-color: blue;
+    min-height: 33%;
+ }
+ header .header .tres .login{
+    background-color: blueviolet;
+    min-height: 34%;
+ }
+ header .header .tres .form{
+    background-color: bisque;
+    min-height: 33%;
+ }
+
+ main .main{
+    min-height: 45vh;
+    display: flex;
+   background-color: blueviolet;
+ }
+
+ main .main .left{
+    background-color: aliceblue;
+    flex: 20%;
+ }
+
+ main .main .mitad{
+    background-color: burlywood;
+    flex: 50%;
+ }
+
+ main .main .right{
+    background-color: silver;
+    flex: 30%;
+ }
+
+ footer{
+    background-color: blueviolet;
+    min-height: 10vh;
+ }
